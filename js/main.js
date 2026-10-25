@@ -1,0 +1,21 @@
+import { initNav } from "./sections/nav.js";
+import { initHero } from "./sections/hero.js";
+import { renderProjects } from "./sections/projects.js";
+import { renderSkills } from "./sections/skills.js";
+import { renderEducation } from "./sections/education.js";
+import { initReveal } from "./reveal.js";
+import { initResume } from "./resume.js";
+import { initOrbit } from "./sections/orbit.js";
+import { initCosmos } from "./cosmos.js";
+import { initMotion } from "./motion.js";
+
+renderProjects();
+renderSkills();
+renderEducation();
+initOrbit();
+initNav();
+initHero();
+initMotion();
+initReveal();
+initResume();
+initCosmos();

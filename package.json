@@ -1,0 +1,8 @@
+{
+  "name": "anandhu-portfolio",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static cosmic developer portfolio (HTML, CSS, ES modules, WebGL). No build step.",
+  "scripts": { "dev": "npx --yes serve .", "check:links": "node scripts/check-links.mjs" }
+}

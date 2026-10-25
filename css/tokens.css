@@ -1,0 +1,4 @@
+:root{--bg:#05060A;--bg-2:#0B1020;--text:#F3F5FA;--muted:#9aa6bd;--line:rgba(255,255,255,.09);--accent:#65E7FF;--accent-2:#9875FF;--ok:#7be3a6;
+--glass:linear-gradient(155deg,rgba(255,255,255,.085),rgba(255,255,255,.025) 45%,rgba(255,255,255,.04));--glass-border:rgba(255,255,255,.12);--blur:blur(22px) saturate(150%);
+--radius:20px;--gutter:clamp(18px,4vw,64px);--maxw:1640px;--radius-sm:14px;--gap:clamp(18px,2.4vw,36px);--ease:cubic-bezier(.2,.7,.1,1);--dur:.7s;--shadow:0 40px 70px -30px #000;--sec:clamp(80px,13vh,150px);
+--font:Geist,system-ui,sans-serif;--mono:"Geist Mono",ui-monospace,monospace;--serif:"Instrument Serif",serif}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anandhu Santhosh · Full-stack developer and problem solver</title>
+<meta name="description" content="Anandhu Santhosh is a Computer Science student and full-stack developer from Kerala building web apps and interactive experiences with Python, Django, React and TypeScript.">
+<meta name="theme-color" content="#05060A">
+<meta property="og:type" content="website"><meta property="og:title" content="Anandhu Santhosh · Developer portfolio">
+<meta property="og:description" content="Web apps and interactive experiences: PixelForge, Octopus Depths, Tick Tick and more.">
+<meta property="og:image" content="assets/img/og.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/sections.css"><link rel="stylesheet" href="css/cosmos.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Anandhu Santhosh","jobTitle":"Full-stack developer","email":"mailto:anandhu361@gmail.com","sameAs":["https://github.com/anandhus005","https://www.linkedin.com/in/anandhu-santhosh361"]}</script>
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="cosmos" aria-hidden="true"></canvas>
+<header class="nav glass" id="nav">
+  <a class="logo" href="#top"><i></i>Anandhu Santhosh</a>
+  <nav class="links" aria-label="Primary"><a href="#about">About</a><a href="#universe">Universe</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a class="mcta" href="#contact">Contact</a></nav>
+  <a class="btn solid sm" href="#contact">Contact me</a>
+  <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu"><span></span><span></span></button>
+</header>
+<main id="main">
+<section class="hero wrap" id="top"><div id="hero" class="hero-in">
+  <div class="copy">
+    <p class="pill glass"><span class="dot"></span><span id="status">Building PixelForge 2.0</span></p>
+    <h1><span class="ln"><span style="--i:0">Building <em>worlds.</em></span></span><span class="ln"><span style="--i:1">Solving problems.</span></span></h1>
+    <p class="lede">Developer. Creator. Explorer of ideas.</p>
+    <div class="row"><a class="btn solid" href="#universe">Explore my universe</a><a class="btn ghost glass" href="#projects">View my work</a><a class="btn ghost glass" id="resumeBtn" href="assets/resume.pdf" download hidden>Download resume</a><a class="btn ghost glass" href="#contact">Contact me</a></div>
+  </div>
+  <ul class="hmeta" aria-label="At a glance"><li><span>Location</span>Kerala, India</li><li><span>Focus</span>Software and creative technology</li><li><span>Status</span>Building and learning</li></ul>
+  <a class="cue" href="#about"><i></i>Scroll</a>
+</div></section>
+
+<section class="wrap sec" id="about"><div class="two">
+  <div class="rv"><h2>Curious by nature. A builder by choice.</h2><div class="orrery" aria-hidden="true"><span class="op"></span><span class="orb o1"><i></i></span><span class="orb o2"><i></i></span></div></div>
+  <div class="about">
+    <p class="lead rv">I'm a Computer Science and Engineering student from Kerala, interested in software development, creative technology, AI and building useful digital products. I build software people can use or play with.</p>
+    <p class="rv">My work follows two tracks. The first is full-stack web apps with Django and Spring Boot on SQL or MongoDB databases: Campus Exchange and the Agriculture and Library management systems. The second is creative coding: PixelForge, Octopus Depths and Tick Tick explore generative art, scroll-driven animation and playful interaction.</p>
+    <p class="rv">I learn by building something real, shipping it to Vercel and fixing what breaks. Right now I'm going deeper into React and TypeScript, and learning DevOps and cloud deployment so what I ship is easier to run and maintain.</p>
+    <dl class="focus rv"><div><dt>Full-stack development</dt><dd>Django, Spring Boot, databases</dd></div><div><dt>Creative coding</dt><dd>Canvas, generative art, interaction</dd></div><div><dt>Software engineering</dt><dd>OOP, data structures, DBMS</dd></div><div><dt>Developing next</dt><dd>React, TypeScript, DevOps</dd></div></dl>
+  </div></div></section>
+
+<section class="wrap sec" id="universe">
+  <div class="head rv"><h2>Project galaxy</h2><p>Six worlds in orbit. Select one for a preview; the full list with case studies follows below.</p></div>
+  <div class="orbit rv" id="orbit" role="group" aria-label="Projects in orbit"><span class="core" aria-hidden="true"></span></div>
+  <p class="cap" id="cap" aria-live="polite">Hover to pause the orbit. Select a world for details.</p>
+  <p class="alt"><a href="#projects">Prefer a list? Browse all projects</a></p>
+  <div class="panel glass" id="panel" role="region" aria-label="Selected project" hidden></div>
+</section>
+
+<section class="wrap sec" id="projects">
+  <div class="head rv"><h2>Projects</h2><p>Six builds, from interactive experiments to full-stack apps. Open a case study for the details.</p></div>
+  <div id="featured" class="featured"></div>
+  <h3 class="sub rv">More projects</h3>
+  <div id="more" class="grid"></div>
+</section>
+
+<section class="wrap sec" id="skills">
+  <div class="head rv"><h2>Skills</h2><p><span class="key"></span>Highlighted skills are used in the projects above. Hover one to see where.</p></div>
+  <div id="skillGrid" class="sgrid"></div>
+</section>
+
+<section class="wrap sec" id="education"><div class="two">
+  <div class="rv"><h2>Education</h2><p class="mut">The path from computer engineering fundamentals to software development.</p></div>
+  <ol id="timeline" class="tl"></ol>
+</div></section>
+
+<section class="wrap sec" id="contact"><div class="contact">
+  <div class="rv"><p class="eyebrow">Contact</p><h2>Have an idea? Let's build it.</h2></div>
+  <ul class="chips rv">
+    <li><a href="mailto:anandhu361@gmail.com" title="anandhu361@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></svg>Email</a></li>
+    <li><a href="https://github.com/anandhus005" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/anandhu-santhosh361" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a></li>
+  </ul>
+</div></section>
+</main>
+<footer class="foot wrap"><p>© 2026 Anandhu Santhosh</p><nav aria-label="Footer"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></footer>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
